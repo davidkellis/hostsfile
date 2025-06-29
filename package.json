@@ -1,0 +1,23 @@
+{
+  "name": "hostsfile",
+  "version": "1.0.0",
+  "description": "hostsfile package",
+  "homepage": "https://github.com/davidkellis/hostsfile#readme",
+  "bugs": {
+    "url": "https://github.com/davidkellis/hostsfile/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidkellis/hostsfile.git"
+  },
+  "license": "EPL-2.0",
+  "author": "David Ellis",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "hostctl": "^0.1.37"
+  }
+}
