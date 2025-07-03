@@ -1,11 +1,10 @@
 # hostsfile
 
-This is a simple task that adds an entry to the `/etc/hosts` file.
+This is a simple task that adds an entry to the `/etc/hosts` file. The main goal of this task is to illustrate how to use the hostctl tool to create a task that can be run locally or on a remote machine.
 
 ## Usage
 
 ```
-hostsfile on  master [+] is 📦 v1.0.0 via  v24.3.0
 ❯ npx hostctl run add_entry.ts names:foo,bar
 ✔ Enter local sudo password:
 === Evaluation ===
@@ -19,7 +18,6 @@ hostsfile on  master [+] is 📦 v1.0.0 via  v24.3.0
 === Result ===
 Running add_entry.ts completed with result: { success: true }
 
-hostsfile on  master [+] is 📦 v1.0.0 via  v24.3.0 took 3s
 ❯ tail /etc/hosts
 127.0.0.1 localhost
 
